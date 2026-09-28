@@ -12,7 +12,7 @@ public class FlightController {
     @GetMapping("/")
     public String viewDashboard(Model model) {
 
-        // Mock data to simulate our Flight system
+        // Mock data to simulate our Flight
         model.addAttribute("Username", "Instructor Wisdom");
         model.addAttribute("systemStatus", "Operational");
 
